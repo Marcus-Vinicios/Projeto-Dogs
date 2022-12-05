@@ -2,10 +2,13 @@
     <button (click)="getDog()">GENERATE DOG</button>
     <div class="dogDiv" *ngIf="this.dog">
         <figure class="imgContainer">
-            <img id="imageDog" [src]="this.dog.url" alt="BEST DOG EVER">
-            <figcaption>DOG DOG DOG DOG DOG DOG DOG</figcaption>
+            <img id="imageDog" [src]="this.dog.url">
         </figure>
-
         <p>{{(this.dog.fileSizeBytes / 1024).toFixed(2)}}kB</p>
     </div>
+</div>
+<div class="footer">
+    <p>
+        Powered by Marcus.V&copy; 2022&reg;
+    </p>
 </div>

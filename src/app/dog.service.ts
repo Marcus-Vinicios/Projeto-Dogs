@@ -7,10 +7,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class DogService {
 
-  private json = 'https://random.dog/woof.json'
+  private json = 'https://random.dog/woof.json';
 
   getDog() {
-    return this.http.get<Dog>(this.json)
+    return this.http.get<Dog>(this.json);
   }
 
   constructor(private http: HttpClient) { }

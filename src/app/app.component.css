@@ -1,51 +1,16 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    margin: 4rem auto;
-    gap: 2rem;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.container button {
-    margin: 0 auto;
-    padding: 1.5rem;
-    font-size: 1.8rem;
-    font-family: var(--font);
-    color: white;
-    background-color: red;
-    max-width: fit-content;
-    transition: background 300ms;
+.header {
+  display: flex;
+  padding: 5px;
+  height: 5.5vh;
+  background-color: #7c8569;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
-.container button:hover {
-    cursor: pointer;
-    background-color: darkred;
-}
-
-figure {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-    max-width: 100%;
-    padding: 0 2rem;
-}
-
-figure img {
-    border: 5px solid rgb(214, 7, 7);
-    max-width: 1000px;
-    max-height: 600px;
-}
-
-figure figcaption {
-    color: white;
-    font-family: var(--font);
-    font-size: 1.6rem;
-}
-
-.dogDiv p {
-    color: white;
-    font-family: var(--font);
-    font-size: 1.6rem;
-    width: fit-content;
-    margin: 1rem auto;
-}
+/*# sourceMappingURL=app.component.css.map */

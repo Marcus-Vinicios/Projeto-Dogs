@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$color1: #52493a;
+$color2: #7c8569;
+$color3: #a4ab80;
+$color4: #e8e0ae;
+$color5: #de733e;
+
+.header {
+    display: flex;
+    padding: 5px;
+    height: 5.5vh;
+    background-color: $color2;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
